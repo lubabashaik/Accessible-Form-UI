@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+.main_container {
+    display: flex;
+    gap: 100px;
+    border: 2px solid black;
+    border-radius: 20px;
+    width: 600px;
+    height: 500px;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.container .profile-complete {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    
+
+}
+
+
+.fullname {
+    font-family: Arial, sans-serif;
+    width: 200px;
+    margin-bottom: 15px;
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+input {
+    font-size: 15px;
+    padding: 10px;
+    /* width: 100%; */
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-top: 5px;
+    width: 200px;
+
+}
+
+
+.Email {
+    font-family: Arial, sans-serif;
+    width: 200px;
+    font-size: 20px;
+
+}
+
+.Email .error-message {
+    display: block;
+    color: red;
+    font-size: 14px;
+    margin-bottom: 15px;
+    margin-top: 5px;
+
+}
+
+.password123 {
+    width: 200px;
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+
+}
+
+.password123 button {
+    border: none;
+    background-color: transparent;
+    margin-bottom: 15px;
+}
+
+
+
+
+.confirmpass {
+
+    width: 200px;
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+
+}
+
+.confirmpass button {
+    border: none;
+    background-color: transparent;
+    margin-bottom: 15px;
+}
+
+.profile-complete {
+    font-size: 20px;
+    /* padding-left: px; */
+    gap: 10px;
+}
+
+.progess-circle {
+    width: 50%;
+    font-size: 40px;
+    padding-left: 40px;
+    padding-bottom: 10px;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+
+ul {
+    list-style: none;
+    font-size: 18px;
+    margin: 15px;
+    background-color: #ccc;
+    width: 200px;
+    border-radius: 50px;
+    padding-left: 10px;
+    
+   
+}
+
+li {
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    /* background-color:#ccc;
+    width: 200px;
+    border-radius: 50px; */
+}
+
+ul li del {
+    color: gray;
+
+}
+
+
+.submit-button button {
+    padding: 10px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    width: 200px;
+    padding-top: 10px;
+    margin-top: 10px;
+
+}
+
+.password-container {
+    position: relative;
+    width: 200px;
+}
+
+
+
+.password-container i {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    /* color: #555; */
+    /* pointer-events: none; Prevents interaction;  */
+}
+
+.confirmpass {
+    position: relative;
+    /* width: 100px; */
+    padding-top: 15px;
+}
+
+.confirmpass i {
+    position: absolute;
+    right: 10px;
+    transform: translateY(-150%);
+    /* width: 80%; */
+
+}

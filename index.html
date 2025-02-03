@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shaik lubaba </title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <meta 
+    name="description" 
+    content="FrontEnd engineer | React.js| HTMLand CSS"/>
+    <meta property="og:title" content="Shaik_lubaba | FrontEnd Developer" />
+    <meta property="og:description" content="FrontEnd Developer  with Experience of 2 years in specialigation of Javascript| HTML and CSS| React" />
+    <meta property="og:image" content="lubi-pic.jpg"/>
+</head>
+
+<body>
+    <div class="main_container">
+        <div class="container">
+            <h1>Profile Update</h1>
+
+            <div class="fullname">
+                <label for="full-name">Full Name</label>
+                <input type="text" id="full-name" name="full-name" placeholder="what should we call you?"
+                    aria-required="true">
+            </div>
+
+            <div class="Email">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="john@doe.com" aria-invalid="true">
+                <span class="error-message">Email is already taken</span>
+            </div>
+
+            <div class="password123">
+                <label for="password">Enter password</label>
+                <!-- <input type="password" placeholder="Enter your password" aria-invalid="true">
+            <i class="fa-solid fa-eye"></i> -->
+                <!-- <button type="button">👁</button> -->
+                <div class="password-container">
+                    <input type="password" id="password" placeholder="Enter your password" aria-invalid="true">
+                    <i class="fa-solid fa-eye" id="togglePassword"></i>
+                </div>
+            </div>
+
+            <div class="confirmpass">
+                <label for="confirm-password">Confirm Password</label>
+                <input type="password" placeholder="Confirm your password">
+                <!-- <button type="button">👁</button> -->
+                <i class="fa-solid fa-eye"></i>
+            </div>
+            <div class="submit-button">
+                <button type="submit">Update Profile</button>
+            </div>
+        </div>
+
+        <div class="profile-complete">
+            <div class="ul-elements">
+                <div class="progess-circle">65%</div>
+                <p>Profile Completeness</p>
+                <div>
+                    <ul>
+                        <li><del>Creat Account</del></li>
+                        <li><del>Update Roadmap Progess</del></li>
+                        <li><del>Setup Public Profile</del></li>
+                        <li>Complete your first project</li>
+                        <li>Invert your Friends</li>
+                    </ul>
+                    <!-- <div class="submit-button">
+                        <button type="submit">Update Profile</button>
+                    </div> -->
+
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
